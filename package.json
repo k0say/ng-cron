@@ -19,7 +19,7 @@
     "publish-alpha": "npm publish ./dist/ng-cron --tag alpha --access=public",
     "publish": "npm publish ./dist/ng-cron --access=public"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^18.2.2",
     "@angular/common": "^18.2.2",
