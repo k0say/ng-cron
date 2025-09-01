@@ -1,10 +1,10 @@
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://vshymanskyy.github.io/StandWithUkraine)
-
 # Quartz/Unix Cron Component - Angular
+
+Forked from https://github.com/ua-cron/angular since I needed the upgraded version to Angular 19.
 
 [Angular](https://angular.io/) cron widget built from the ground up using only [Bootstrap 4](https://getbootstrap.com/) CSS.
 
-Please check our [demo & documentation](https://ngcron.emptyui.com/) and the list of
+Please check the [demo & documentation](https://ngcron.emptyui.com/) and the list of
 [issues](https://github.com/ua-cron/angular/issues) to see all the things we are working on. Feel free to make comments there.
 
 <p align="center">
@@ -17,14 +17,14 @@ Please check our [demo & documentation](https://ngcron.emptyui.com/) and the lis
 </p>
 
 <p align="center">
-	<a href="https://badge.fury.io/js/%40sbzen%2Fng-cron">
+	<a href="https://badge.fury.io/js/%40k0say%2Fng-cron">
 		<img
-			src="https://img.shields.io/npm/dm/@sbzen/ng-cron.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen"
+			src="https://img.shields.io/npm/dm/@k0say/ng-cron.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen"
 			alt="npm version">
 	</a>
-	<a href="https://npmjs.org/%40sbzen%2Fng-cron">
+	<a href="https://npmjs.org/%40k0say%2Fng-cron">
 		<img
-			src="https://img.shields.io/npm/v/@sbzen/ng-cron.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen"
+			src="https://img.shields.io/npm/v/@k0say/ng-cron.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen"
 			alt="npm downloads">
 	</a>
 </p>
@@ -38,14 +38,14 @@ Inspired by this [non-angular](https://www.freeformatter.com/cron-expression-gen
 ## Installation
 You can use either the npm or yarn command-line tool to install packages.
 ```
-npm install --save @sbzen/ng-cron
+npm install --save @k0say/ng-cron
 ```
 
 ## Display the cron component
 You need to import the QuartzCronModule that you want to display by adding the following lines to your ngModule.
 
 ```
-import { QuartzCronModule } from '@sbzen/ng-cron';
+import { QuartzCronModule } from '@k0say/ng-cron';
 
 @NgModule ({
   imports: [QuartzCronModule]
