@@ -7,7 +7,7 @@
     "build": "ng build",
     "build-lib": "npm run clean && npm run build ng-cron && node prepare-package.mjs",
     "build-lib-alpha": "ALPHA=1 npm run build-lib",
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "npm run build-lib && npm run e2e-inject && npm run build e2e && cypress open --component",
