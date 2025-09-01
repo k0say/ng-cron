@@ -45,7 +45,7 @@ npm install --save @k0say/ng-cron
 You need to import the QuartzCronModule that you want to display by adding the following lines to your ngModule.
 
 ```
-import { QuartzCronModule } from '@sbzen/ng-cron';
+import { QuartzCronModule } from '@k0say/ng-cron';
 
 @NgModule ({
   imports: [QuartzCronModule]
