@@ -1,6 +1,14 @@
 # Quartz/Unix Cron Component - Angular
 
-Forked from https://github.com/ua-cron/angular since I needed the upgraded version to Angular 19.
+# @k0say/ng-cron
+
+This library is a fork of [@sbzen/ng-cron](https://www.npmjs.com/package/@sbzen/ng-cron),
+originally created by **sbzen** and licensed under MIT.
+
+This fork updates Angular and dependencies to newer versions (Angular 19) and introduces
+minor improvements for compatibility.
+
+See [LICENSE](./LICENSE) and [NOTICE](./NOTICE) for details.
 
 [Angular](https://angular.io/) cron widget built from the ground up using only [Bootstrap 4](https://getbootstrap.com/) CSS.
 
