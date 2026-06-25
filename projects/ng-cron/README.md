@@ -1,5 +1,7 @@
 # Quartz/Unix Cron Component - Angular
 
+Forked from https://github.com/ua-cron/angular since I needed the upgraded version to Angular 21.
+
 [Angular](https://angular.io/) cron widget built from the ground up using only [Bootstrap 4](https://getbootstrap.com/) CSS.
 
 Please check the [demo & documentation](https://ngcron.emptyui.com/) and the list of
