@@ -65,10 +65,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "e2e:build:production"
+              "buildTarget": "e2e:build:production"
             },
             "development": {
-              "browserTarget": "e2e:build:development"
+              "buildTarget": "e2e:build:development"
             }
           },
           "defaultConfiguration": "development"

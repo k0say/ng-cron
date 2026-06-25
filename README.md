@@ -1,6 +1,6 @@
 # Quartz/Unix Cron Component - Angular
 
-Forked from https://github.com/ua-cron/angular since I needed the upgraded version to Angular 19.
+Forked from https://github.com/ua-cron/angular since I needed the upgraded version to Angular 21.
 
 [Angular](https://angular.io/) cron widget built from the ground up using only [Bootstrap 4](https://getbootstrap.com/) CSS.
 
@@ -75,3 +75,4 @@ Here is the versions compatibility list:
 | 17.0.0           | 17.x.x        | 4.x.x, 5.x.x   |
 | 18.0.0           | 18.x.x        | 4.x.x, 5.x.x   |
 | 19.0.0           | 19.x.x        | 4.x.x, 5.x.x   |
+| 21.0.0           | 21.x.x        | 4.x.x, 5.x.x   |

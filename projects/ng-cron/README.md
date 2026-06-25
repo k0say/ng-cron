@@ -72,3 +72,7 @@ Here is the versions compatibility list:
 | 2.0.0            | 14.x.x        | 4.x.x          |
 | 15.0.0           | 15.x.x        | 4.x.x, 5.x.x   |
 | 16.0.0           | 16.x.x        | 4.x.x, 5.x.x   |
+| 17.0.0           | 17.x.x        | 4.x.x, 5.x.x   |
+| 18.0.0           | 18.x.x        | 4.x.x, 5.x.x   |
+| 19.0.0           | 19.x.x        | 4.x.x, 5.x.x   |
+| 21.0.0           | 21.x.x        | 4.x.x, 5.x.x   |
