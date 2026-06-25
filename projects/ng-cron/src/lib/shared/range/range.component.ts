@@ -4,6 +4,7 @@ import { Mode } from '@sbzen/cron-core';
 import { CronClassesSchema } from './../../styles';
 
 @Component({
+  standalone: false,
   selector: 'cron-range',
   templateUrl: './range.html',
   changeDetection: ChangeDetectionStrategy.OnPush

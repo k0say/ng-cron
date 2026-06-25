@@ -4,6 +4,7 @@ import { Segment, Type, getDaysOfWeekCodes, getList, CronQuartzUIService } from 
 import { CronTabComponent } from './../../../cron-tab.abstract';
 
 @Component({
+  standalone: false,
   selector: 'quartz-cron-day',
   templateUrl: './day.html',
   changeDetection: ChangeDetectionStrategy.OnPush

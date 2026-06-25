@@ -4,6 +4,7 @@ import { Segment, Type, getList, CronQuartzUIService } from '@sbzen/cron-core';
 import { CronTabSingleSegmentComponent } from './../../../cron-tab-single-segment.abstract';
 
 @Component({
+  standalone: false,
   selector: 'quartz-cron-second',
   templateUrl: './second.html',
   changeDetection: ChangeDetectionStrategy.OnPush

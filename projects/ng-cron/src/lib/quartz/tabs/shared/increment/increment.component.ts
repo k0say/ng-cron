@@ -5,6 +5,7 @@ import { Mode } from '@sbzen/cron-core';
 import { CronClassesSchema } from './../../../../styles';
 
 @Component({
+  standalone: false,
   selector: 'quartz-cron-increment',
   templateUrl: './increment.html',
   changeDetection: ChangeDetectionStrategy.OnPush

@@ -10,6 +10,7 @@ export function quartzCronServiceFactory() {
 };
 
 @Component({
+  standalone: false,
   selector: 'quartz-cron',
   templateUrl: './quartz.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -10,6 +10,7 @@ export function bs5QuartzCronServiceFactory() {
 };
 
 @Component({
+  standalone: false,
   selector: 'bs5-quartz-cron',
   templateUrl: './../quartz/quartz.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

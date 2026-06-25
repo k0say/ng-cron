@@ -10,6 +10,7 @@ export function unixCronServiceFactory() {
 };
 
 @Component({
+  standalone: false,
   selector: 'unix-cron',
   templateUrl: './unix.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

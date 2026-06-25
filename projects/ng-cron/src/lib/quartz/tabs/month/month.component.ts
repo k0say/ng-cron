@@ -4,6 +4,7 @@ import { Segment, Type, getMonthCodes, getList, CronQuartzUIService } from '@sbz
 import { CronTabSingleSegmentComponent } from './../../../cron-tab-single-segment.abstract';
 
 @Component({
+  standalone: false,
   selector: 'quartz-cron-month',
   templateUrl: './month.html',
   changeDetection: ChangeDetectionStrategy.OnPush

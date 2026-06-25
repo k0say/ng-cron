@@ -10,6 +10,7 @@ export function bs5UnixCronServiceFactory() {
 };
 
 @Component({
+  standalone: false,
   selector: 'bs5-unix-cron',
   templateUrl: './../unix/unix.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

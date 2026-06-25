@@ -5,6 +5,7 @@ import { CronLocalization } from './../cron-localization';
 import { CronClassesSchema } from './../styles';
 
 @Component({
+  standalone: false,
   selector: 'cron-container',
   templateUrl: './container.html',
   styleUrls: ['./container.scss'],

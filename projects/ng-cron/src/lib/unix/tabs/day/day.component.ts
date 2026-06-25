@@ -4,6 +4,7 @@ import { Segment, Type, getList, getDaysOfWeekCodes, CronUnixUIService } from '@
 import { CronTabComponent } from './../../../cron-tab.abstract';
 
 @Component({
+  standalone: false,
   selector: 'unix-cron-day',
   templateUrl: './day.html',
   changeDetection: ChangeDetectionStrategy.OnPush
